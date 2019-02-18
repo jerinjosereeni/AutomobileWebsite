@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+#navbar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-image: linear-gradient(to right, #B8F3CC,#21ED65);
+	padding: 0 !important;
+}
+
+.navbar-brand img{
+	height: 45px;
+	padding-left: 30px;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: black !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color: black;
+	font-size: 25px !important;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}
+
+
+/*..........banner section......*/
+
+
+#banner{
+	background:#fff;
+	color: black;
+	padding: 5%;
+}
+.promo-title{
+	font-size: 35px;
+	font-weight: 600;
+	margin-top:100px;
+	font-family: cursive; 
+}
+
+#banner .col-md-6 {
+	font-family: sans-serif;
+}
+
+#banner a{
+	padding-left: 100px;
+}
+
+.promo-title{
+	font-size: 35px;
+	font-weight: 600;
+	margin-top:100px;
+	font-family: cursive; 
+}
+
+/*..........banner section......*/
+
+#services{
+	padding: 80px 0;
+}
+
+.service-img{
+	width: 100px;
+	margin-top: 20px;
+}
+
+.services{
+	padding: 20px;
+}
+
+.services h4{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+/*......about....*/
+
+#about-us{
+	background:#f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.about-title{
+	font-size: 30px;
+	font-weight: 600px;
+	margin-top: 10%;
+	font-family: bold sans-serif;
+}
+
+.col-md-6 ul li{
+	font-family: tahoma;
+	padding: 5px;
+}
+
+.col-md-6 ul{
+	margin-left: 20px;
+}
+
+
+/*.........contact..............*/
+
+
+#social-media{
+	background: #f8f9fa;
+	padding: 100px 0;
+	height: 450px;
+}
+
+#social-media p{
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-family: cursive;
+}
+
+.social-icons img{
+	width: 60px;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
